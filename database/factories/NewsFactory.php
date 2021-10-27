@@ -17,7 +17,7 @@ class NewsFactory extends Factory
             //
             'title' => $this->faker->sentence(mt_rand(2,8)),
             'slug' => $this->faker->slug(),
-            'body' => $this->faker->paragraph(mt_rand(5,10)),
+            'body' => $this->faker->paragraph(mt_rand(5,13)),
             'bureau_id' => 1,
         ];
     }
